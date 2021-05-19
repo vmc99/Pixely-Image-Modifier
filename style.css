@@ -1,0 +1,109 @@
+h1{
+  font-size: 3em;
+  text-align : center;
+  color :  cornflowerBlue;
+  font-family:  monospace;
+}
+h2{
+  color : #69B8AE;
+  font-size: 1.4em;
+  font-family: Courier;
+}
+
+body {
+ 
+  background-color: #1D2124;
+  text-align : center;
+  
+}
+
+.topdiv{
+   border-top : 2px solid royalblue;
+   border-bottom : 2px solid royalblue;
+}
+.table_div{
+  margin-top : 2px;
+  border-top : 3px solid royalblue;
+}
+
+.places_table{
+ 
+  margin : auto;
+  margin-top : 100px;
+  margin-bottom : 10px;
+  border-bottom : 2px outset royalblue;
+  
+  
+}
+.features{
+  font-size : 1.5em;
+  font-family : monospace;
+  color : #5591CD;
+}
+
+
+
+button {
+    margin: 0 auto;
+   /* display: block;*/
+}
+
+.btn1{
+  background-color: #DDD9D9;
+  border: solid black;
+  border-radius : 5px;
+  color: black;
+  padding: 12px 75px;
+  cursor: pointer;
+  font-size: 20px;
+  margin-bottom : 20px; 
+}
+.btn1:hover {
+  /* Darker background on mouse-over */
+  background-color: black;
+  color : gold
+}
+
+.btn2{
+  background-color:#DDD9D9;
+  border: solid black;
+  border-radius : 5px;
+  color: black;
+  padding: 12px 52px;
+  cursor: pointer;
+  font-size: 20px;
+  margin-bottom : 20px; 
+}
+.btn2:hover {
+  background-color: black;
+  color : gold
+}
+
+.btn3{
+  background-color: #DDD9D9;
+  border: solid black;
+  border-radius : 5px;
+  color: black;
+  padding: 12px 35px;
+  cursor: pointer;
+  font-size: 20px;
+  margin-bottom : 20px; 
+}
+.btn3:hover {
+  background-color: black;
+  color : gold
+}
+
+.end_div{
+  background-color : #CFE8F6;
+  margin-top : 100px; 
+  
+}
+
+#end_p{
+  text-align : center;
+  font-size : 1.4em;
+  font-family : monospace;
+  color : #4B48AC;
+
+}

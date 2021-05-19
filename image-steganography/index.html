@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Image Steganography</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<script src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js" >
+</script>
+
+<div class = "topdiv">
+  
+  <h1>PIXELY </h1>
+  
+</div>
+
+<div class ="main_div">
+
+<h2 id="heading">Image Steganography</h2>
+
+<p>
+Start Image: <input type="file" multiple="false" accept="image/*" id="sgfile" onchange="loadStartImage()" 
+class = sg_hg>
+</p>
+
+<p>
+Hide Image : <input type="file" multiple="false" accept="image/*" id="hgfile" onchange="loadHideImage()" 
+class = sg_hg>
+</p>
+
+<p>
+<input type="button" value="   Apply   " onclick="combine()" class = apply_Clear>
+<input type="button" value="   Clear   " onclick="clearCanvas()" class = apply_Clear>
+  
+ <a id="download" download="stegno_image.png">
+<input type="button" value =" Download " onClick="download()" class = download_btn>
+ </a>
+</p>
+
+</div>
+
+<canvas id = "sgcan">
+</canvas>
+<canvas id = "hgcan">
+</canvas>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>

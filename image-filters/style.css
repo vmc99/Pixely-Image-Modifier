@@ -1,0 +1,149 @@
+h1{
+  font-size: 3em;
+  text-align : center;
+  color :  cornflowerBlue;
+  font-family:  monospace;
+}
+
+canvas {
+  border: 1px solid #c3c3c3;
+  height: 200px;
+}
+
+body {
+  background-color: #1D2124;
+  /*text-align : center;*/
+}
+
+input {
+  font-size: 20px;
+  color : ;
+}
+
+.topdiv{
+   border-top : 2px solid royalblue;
+   border-bottom : 2px solid royalblue;
+}
+
+.main_div{
+  margin-top : 2px;
+  border-top : 3px solid royalblue;
+}
+
+#heading{
+    font-size : 2.3em;
+    color :#DB3755;
+    font-family : monospace;
+}
+
+p{
+  font-size : 13pt;
+  font-family:  Courier;
+  color : #7ADFC5;
+  
+}
+.filter{
+  font-family : Courier;
+  color : cornflowerBlue;
+  
+}
+
+.lg{
+  background-color: none;
+  border-radius : 5px;
+  color: #7ADFC5;
+  padding: none;
+  cursor: pointer;
+  font-size: 15px;
+  margin-bottom : 5px; 
+
+}
+
+.lg:hover {
+  background-color: black;
+  color : cornflowerBlue;
+}
+
+.apply_grey:hover{
+  background-color: black;
+  
+  color : grey;
+}
+.apply_grey{
+  border-radius : 5px;
+  border : solid black;
+  padding: 0px 35px 0px 35px;
+}
+
+.apply_red:hover{
+  background-color: black;
+  border : solid black;
+  color : red;
+}
+.apply_red{
+  border-radius : 5px;
+  border : solid black;
+  padding: 0px 35px 0px 35px;
+}
+
+.apply_green:hover{
+  background-color: black;
+  color : green;
+}
+.apply_green{
+  border-radius : 5px;
+  border : solid black;
+  padding: 0px 35px 0px 35px;
+}
+
+.apply_blue:hover{
+  background-color: black;
+  color : royalblue;
+}
+.apply_blue{
+  border-radius : 5px;
+  border : solid black;
+  padding: 0px 35px 0px 35px;
+}
+.apply_border{
+  border-radius : 5px;
+  border : solid black;
+  padding: 0px 35px 0px 35px;
+}
+.apply_border:hover{
+   border : solid black;
+   background-color: #1D2124;
+   color : white;
+}
+.apply_rainbow{
+  border-radius : 5px;
+  border : solid black;
+  padding: 0px 35px 0px 35px;
+}
+.apply_rainbow:hover{
+  color : cornflowerBlue;
+  background-color : black;
+}
+
+.apply_blur{
+  border-radius : 5px;
+  border : solid black;
+  padding: 0px 35px 0px 35px;
+}
+.apply_blur:hover{
+  color :#51E0A4;
+  background-color : black;
+}
+
+
+
+
+.reset:hover{
+  background-color: #E61822;
+  border : solid #E61822;
+  color : #FFFFFF;
+}
+.reset{
+  border-radius : 5px;
+  padding: 0px 25px 0px 25px;
+}
